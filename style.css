@@ -1,0 +1,97 @@
+/* Styles pour le header */
+.header {
+    background-color: #1F305E; 
+    color: #f2e9e4;
+    padding: 20px;
+  }
+  
+  .header__title {
+    font-size: 32px;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .header__nav {
+    margin-top: 10px;
+  }
+  
+  .nav__list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .nav__item {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .nav__link {
+    color: #f2e9e4;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+  
+  .nav__link:hover {
+    color: #E4D00A;
+  }
+  
+  /* Styles pour le main */
+  .main {
+    padding: 20px;
+    background-color: #f2e9e4;
+    color: #333;
+  }
+  
+  .destination__title,
+  .accommodation__title,
+  .activities__title,
+  .gallery__title {
+    font-size: 24px;
+    color: #142850;
+    margin-bottom: 10px;
+  }
+  
+  .destination__description,
+  .accommodation__description,
+  .activities__description {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+    .image-container {
+    display:inline-block;
+      text-align: center; /* Centrer horizontalement */
+    margin: 0 auto; /* Centrer horizontalement le conteneur */
+    height: auto; /* Hauteur automatique pour s'adapter au contenu */
+    background-color: #f2e9e4; 
+    color: #f2e9e4;
+    padding: 20px;
+  }
+  
+  /* Styles pour l'image à l'intérieur du conteneur */
+  .image-container__image {
+    max-width: 100%; /* Assurez-vous que l'image ne dépasse pas la largeur du conteneur */
+    height: auto; /* Ajuster la hauteur de l'image en conséquence */
+    margin-bottom: 20px; /* Espacement entre les images (à titre d'exemple) */  
+  }
+    
+    .gallery {
+     text-align:center; 
+    }
+  
+  
+  /* Styles pour le footer */
+  .footer {
+    background-color: #1F305E; /* Couleur de fond bleue */
+    color: #f2e9e4; 
+    padding: 10px;
+    text-align: center; /* Centrer horizontalement le texte */
+    }
+    
+    .footer__copyright{  
+    font-size: 14px;
+    margin: 0; /* Supprime la marge par défaut qui peut causer un décalage vertical */
+  }
